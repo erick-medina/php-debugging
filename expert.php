@@ -1,10 +1,4 @@
 <?php
-declare(strict_types=1);
-
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-error_reporting(E_ALL);
-
 // === Exercise 1 === >>> Errors: Function was not called. Debugging said "undefined variable" on line 11. Solution: variable $x defined by adding a parameter in the function call
 
 function new_exercise($x) {
